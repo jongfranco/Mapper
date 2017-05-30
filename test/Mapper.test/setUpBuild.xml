@@ -1,0 +1,21 @@
+<project name="setUpTest" default="setup">
+
+<property file="sdk.loc.properties" />
+
+<target name="setup">
+    <condition property="androidCmd" value="android.bat">
+        <os family="windows" />
+    </condition>
+    <condition property="androidCmd" value="android">
+        <os family="unix" />
+    </condition>
+    <exec executable="${sdk.dir}/tools/${androidCmd}">
+        <arg value="update" />
+        <arg value="project" />
+        <!-- This path -->
+        <arg value="-p" />
+        <arg value="." />
+    </exec>
+</target>
+
+</project>

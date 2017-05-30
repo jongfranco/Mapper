@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.google.android.maps.MapView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0G1U8k52u7j0vqjMd-rZ8ECqVD8cRFLbso-4TZA"
+        android:clickable="true" >
+    </com.google.android.maps.MapView>
+
+    <TextView
+        android:id="@+id/my_xml"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#554E4848"
+        android:orientation="horizontal"
+        android:padding="2px" >
+
+        <Button
+            android:id="@+id/curLoc"
+            android:layout_width="60px"
+            android:layout_height="60px"
+            android:layout_marginLeft="10px"
+            android:background="@drawable/location" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#554E4848"
+        android:orientation="horizontal"
+        android:padding="2px" >
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/mapTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10px"
+            android:text="@string/title"
+            android:textColor="#4D1E00" />
+    </LinearLayout>
+
+</RelativeLayout>
