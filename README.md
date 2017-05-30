@@ -1,6 +1,6 @@
 Mapper
 ======
-Semester-long Android development project for a graduate-level project management class. I (Kristin Dahl) served as project manager as well as technical developer.
+Semester-long Android development project for a graduate-level project management class. Kristin Dahl was project manager as well as technical developer.
 
 Code and comments may not be 100% complete.
 
