@@ -1,6 +1,6 @@
 Mapper
 ======
-Semester-long Android development project for a graduate-level project management class. Kristin Dahl was project manager as well as technical developer.
+Mapper is the result of a semester-long development project for a graduate-level project management class. Kristin Dahl was project manager as well as technical developer. It is an Android app that assists in navigating the tunnels and skyways at the University of Minnesota and downtown Minneapolis.
 
 Code and comments may not be 100% complete.
 
